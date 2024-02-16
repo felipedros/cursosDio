@@ -1,0 +1,106 @@
+
+
+
+/* fundo do site*/
+body{
+    background: #ad9461;
+    font-family: verdana;
+    /*largura do body*/
+    width:900px ;
+    /*auto cria o espaçamento perfeito na tela*/
+    margin: auto;
+}
+
+.foto_de_cima{
+border: 1px solid #e90f0f;
+border-radius: 50%;
+
+}
+
+
+/* grupo de elementos*/
+#title, .subtitle , .post_title {
+    color: rgb(17, 10, 2);
+}
+
+#title{
+    font-size: 16px;
+    text-transform:uppercase;
+
+
+}
+
+/* para alterar aparencia dos links*/
+
+a{
+    text-decoration: line-through;
+    color: #000 ;
+
+}
+
+/*post_title é uma class criada dentro da tag h3 a class serve para editar o html atraves do css3*/
+.post_title{
+ font-size: 30px;
+ font-style: italic;
+ margin: 15px;
+}
+
+/*fica dentro do article , classe criada  para definir parametros do bloco*/
+.post{
+ /*fundo do post dentro do bloco*/
+ background: #e68d09 ; 
+ /*espaçamento entre o conteudo e a borda do bloco*/
+ padding: 15px; 
+ /*borda da postagem do bloco,pode ter tres valores pixels,centimetros e milimetros */ 
+ border: 10px solid #000;
+ /*espaçamento entre elementos,do canto fora de todo bloco*/
+ margin-bottom:  10px;
+ /*para arredondar a borda o bloco de conteudo*/
+ border-radius: 30px;
+
+
+}
+
+/* class criada para definir parametros do paragrafo*/
+.post_apresentacao {
+ margin: 0;
+
+ /*margin-bottom em CSS é usada para definir a margem inferior de um elemento*/
+ margin-bottom: 15px;
+/*são as primeiras letras de cada palavra maiuscula*/
+ text-transform: capitalize;
+
+ /*alinha o texto da postagem*/
+ text-align: center;
+
+
+}
+
+.post_image {
+
+    margin-bottom: 15px ;
+    /* ajusta a imagem*/
+    width: 100%;
+
+}
+
+.contact_list{
+    /*tira os pontos*/
+list-style-type: none ;
+/*move as listas*/
+padding-left: 30px;
+
+
+}
+/* tambem posso mudar a lista desse jeito*/
+.contact_list li a {
+color: #e90f0f; /*para mudar a cor*/
+
+/*para tirar o risco das listas*/
+text-decoration:none ;
+
+
+
+}
+
+
