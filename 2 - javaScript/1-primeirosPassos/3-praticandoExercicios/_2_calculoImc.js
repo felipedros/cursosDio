@@ -13,6 +13,8 @@ IMC em adultos Condição:
 - Acima de 40 Obsesidade Grave;
 */
 
+
+
 const peso = 76;
 const altura = 1.68;
 

@@ -38,12 +38,12 @@ console.log(quadrado(20) + quadrado(10));
 
 
 function imcrementarJuros(valor,percentualJuros) {
-    const valorAcrescimo = (percentualJuros /100) * valor;
+    const valorAcrescimo = (percentualJuros /100) - valor;
     return valor + valorAcrescimo;
 
 }
 
-console.log(imcrementarJuros(100,10));
+console.log(imcrementarJuros(780,20));
 console.log(imcrementarJuros(100,5));
 
 /* Uma função é um pequeno trecho de codigo que agente pode invocar ele para ser executado varias vezes, com parametros iguais ou diferentes*/
